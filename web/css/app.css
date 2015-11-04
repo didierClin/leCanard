@@ -1,9 +1,9 @@
 *{
   font-size: 1.1em;
-    background-color: 
 }
 body{
-    width: 80%;
+    width: 60%;
+    max-width: 800px;
     margin: auto;
 }
 img{
@@ -15,13 +15,14 @@ h1 span{
   font-size: 2em;
   font-style: oblique;
 }
+
 #titre {
     font-style: normal;
     color: yellow;
     text-shadow: 2px 2px #968108;
     font-size: 2.5em;
-    
-} 
+
+}
 #brand{
     font-style: oblique;
     font-weight: bold;
@@ -34,6 +35,8 @@ header p{
   font-style: italic;
   font-size: .8em;
   color: grey;
+  max-width: 600px;
+  margin: auto;
 }
 a{
         text-decoration: none;
@@ -53,39 +56,39 @@ section{
     float: left;
 }
 aside{
-    float: right;  
+    float: right;
 }
-@media screen and (min-width:580px) and (max-width: 799px){
+@media screen and (min-width:785px) and (max-width: 1150px){
     body{
         margin: auto;
-        width:  95%;
+        width:  85%;
     }
+
     aside {
-        font-size: 0.6em;
+        font-size: .8em;
     }
 }
-@media screen and (max-width: 579px){
+@media screen and (max-width: 784px){
     body{
         width:  100%;
+        font-size: .8em;
     }
-    aside {
-        display: none;
+    aside, header img, #brand{
+      display: none;
+    }
+    img{
+      clear: both;
+      margin: auto;
     }
 }
-    
+
 li{
   list-style: none;
   text-align: left;
   color: blue;
   font-style: oblique;
 }
-#maps{ 
-    border="0";
-    width="410";
-    height="480";
-    orgWidth="410";
-    orgHeight="480" ;
-    }
+
 footer{
     position: fixed;
     font-size: .8em;
