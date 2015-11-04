@@ -17,6 +17,9 @@ header p{
   font-size: .9em;
   color: grey;
 }
+a{
+        text-decoration: none;
+}
 a:hover{
   color: green;
 }
