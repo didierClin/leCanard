@@ -2,7 +2,11 @@
   font-size: 1.1em;
     background-color: 
 }
-header{
+body{
+    width: 80%;
+    margin: auto;
+}
+img{
   float: left;
   margin: 1%;
 }
@@ -11,11 +15,18 @@ h1 span{
   font-size: 2em;
   font-style: oblique;
 }
-h1 span:first-child {
+#titre {
     font-style: normal;
     color: yellow;
+    text-shadow: 2px 2px #968108;
     font-size: 2.5em;
+    
 } 
+#brand{
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: underline;
+}
 hr{
   clear: both;
 }
@@ -42,12 +53,29 @@ section{
     float: left;
 }
 aside{
-    float: right;
-    
+    float: right;  
 }
+@media screen and (min-width:580px) and (max-width: 799px){
+    body{
+        margin: auto;
+        width:  95%;
+    }
+    aside {
+        font-size: 0.6em;
+    }
+}
+@media screen and (max-width: 579px){
+    body{
+        width:  100%;
+    }
+    aside {
+        display: none;
+    }
+}
+    
 li{
   list-style: none;
-  text-align: right;
+  text-align: left;
   color: blue;
   font-style: oblique;
 }
@@ -58,3 +86,10 @@ li{
     orgWidth="410";
     orgHeight="480" ;
     }
+footer{
+    position: fixed;
+    font-size: .8em;
+    bottom: 0;
+    width: auto;
+    border: 3px solid #8AC007;
+}
