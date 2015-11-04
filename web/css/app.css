@@ -1,0 +1,48 @@
+*{
+  font-size: 1.1em;
+}
+header{
+  float: left;
+  margin: 1%;
+}
+h1 span{
+  color: yellow;
+  font-size: 2em;
+}
+hr{
+  clear: both;
+}
+header p{
+  font-style: italic;
+  font-size: .9em;
+  color: grey;
+}
+a:hover{
+  color: green;
+}
+a:focus {
+  background-color: #FFCC66:
+}
+area:hover{
+    color: green;
+}
+section{
+    float: left;
+}
+aside{
+    float: right;
+    
+}
+li{
+  list-style: none;
+  text-align: right;
+  color: blue;
+  font-style: oblique;
+}
+#maps{ 
+    border="0";
+    width="410";
+    height="480";
+    orgWidth="410";
+    orgHeight="480" ;
+    }
