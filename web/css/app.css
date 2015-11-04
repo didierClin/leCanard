@@ -1,33 +1,42 @@
 *{
   font-size: 1.1em;
+    background-color: 
 }
 header{
   float: left;
   margin: 1%;
 }
 h1 span{
-  color: yellow;
+  color: green;
   font-size: 2em;
+  font-style: oblique;
 }
+h1 span:first-child {
+    font-style: normal;
+    color: yellow;
+    font-size: 2.5em;
+} 
 hr{
   clear: both;
 }
 header p{
   font-style: italic;
-  font-size: .9em;
+  font-size: .8em;
   color: grey;
 }
 a{
         text-decoration: none;
 }
+/*essai coloration lien sur la carte map*/
 a:hover{
   color: green;
 }
 a:focus {
   background-color: #FFCC66:
 }
+/*essai coloration lien sur la carte map*/
 area:hover{
-    color: green;
+    color: yellow;
 }
 section{
     float: left;
