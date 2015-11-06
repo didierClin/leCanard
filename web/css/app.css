@@ -1,7 +1,5 @@
-*{
-  font-size: 1.1em;
-}
 body{
+   font-size: 1.1em;
     width: 60%;
     max-width: 800px;
     margin: auto;
@@ -46,7 +44,7 @@ a:hover{
   color: green;
 }
 a:focus {
-  background-color: #FFCC66:
+  background-color: #FFCC66;
 }
 /*essai coloration lien sur la carte map*/
 area:hover{
@@ -57,6 +55,21 @@ section{
 }
 aside{
     float: right;
+}
+li{
+  list-style: none;
+  text-align: left;
+  color: blue;
+  font-style: oblique;
+}
+footer{
+    position: fixed;
+    font-size: .75em;
+    bottom: 0;
+    text-align: center;
+    width: auto;
+    margin: auto;
+    border: 3px solid #8AC007;
 }
 @media screen and (min-width:785px) and (max-width: 1150px){
     body{
@@ -80,19 +93,4 @@ aside{
       clear: both;
       margin: auto;
     }
-}
-
-li{
-  list-style: none;
-  text-align: left;
-  color: blue;
-  font-style: oblique;
-}
-
-footer{
-    position: fixed;
-    font-size: .8em;
-    bottom: 0;
-    width: auto;
-    border: 3px solid #8AC007;
 }
