@@ -24,3 +24,13 @@ Code image cliquable:
 <area  alt="les paysans bretons" title="region bretonne" href="http://www.labretagne.com" shape="poly" coords="115,117,115,138,77,164,12,140,9,114,30,99,54,102,63,112,83,106" style="outline:none;" target="_self"     />
 
 </map>
+
+
+Test: Ajout nouvelle zone sur la meme map:
+
+<img id="Image-Maps-Com-image-maps-2015-11-08-075334" src="http://www.image-maps.com/m/private/0/a37nqfo7oen6fljiuq1iqjmv36_map.png" border="0" width="410" height="480" orgWidth="410" orgHeight="480" usemap="#image-maps-2015-11-08-075334" alt="" />
+<map name="image-maps-2015-11-08-075334" id="ImageMapsCom-image-maps-2015-11-08-075334">
+<area shape="rect" coords="408,478,410,480" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
+
+<area  alt="lien vers mon git hub" title="Mon Git Hub" href="https://github.com/" shape="poly" coords="106,257,132,274,143,272,149,264,163,251,175,252,191,278,171,308,173,320,153,327,132,329,131,341,140,352,134,375,123,378,96,370,90,365,79,355,95,340" style="outline:none;" target="_self"    data-maphilight='what is it?' />
+</map>
