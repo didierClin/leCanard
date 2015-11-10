@@ -21,9 +21,6 @@ h1 span{
     font-size: 2.5em;
 
 }
-#barre{
-    text-decoration: line-through;
-  }
 #brand{
     font-style: oblique;
     font-weight: bold;
