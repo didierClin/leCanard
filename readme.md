@@ -1,6 +1,6 @@
 Creation d'un site le canard repliquant l'esprit du site Le Bon Coin (coin)
 
-
+L'objectif est de mettre en place une carte avec des zones cliquables menant à des cibles distinctes.
 
 Code image cliquable:
 <img id="Image-Maps-Com-image-maps-2015-11-04-051416" src="http://www.image-maps.com/m/private/0/9brvmuoevrran3qbqnu31d63k0_map.png" border="0" width="410" height="480" orgWidth="410" orgHeight="480" usemap="#image-maps-2015-11-04-051416" alt="" />
